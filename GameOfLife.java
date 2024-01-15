@@ -39,6 +39,7 @@ public class GameOfLife {
 			System.out.println("Generation " + gen + ":");
 			print(board);
 			board = evolve(board);
+			System.out.println(); // Skips to the next line
 		}
 	}
 		
