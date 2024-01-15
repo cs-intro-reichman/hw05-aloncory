@@ -36,7 +36,6 @@ public class GameOfLife {
 	public static void test3(String fileName, int Ngen) {
 		int[][] board = read(fileName);
 		for (int gen = 0; gen < Ngen; gen++) {
-			System.out.println(); // Skips to the next line
 			System.out.println("Generation " + gen + ":");
 			print(board);
 			board = evolve(board);
